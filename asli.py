@@ -13,7 +13,7 @@ import schedule
 import base64
 
 test_url = 'https://www.google.com'
-encoded_proxy_list_url = 'aHR0cHM6Ly9hcGkucHJveHlzY3JhcGUuY29tL3YyLz9yZXF1ZXN0PWRpc3BsYXlwcm94aWVzJnByb3RvY29sPWh0dHAmdGltZW91dD0xMDAwMCZjb3VudHJ5PWFsbCZzc2w9YWxsJmFub255bWl0eT1hbGw='
+encoded_proxy_list_url = 'Masukan api proxy scrape kalian yang sudah di encode base64'
 output_file = 'active_proxies.txt'
 user_ids_file = 'users.txt'
 proxy_list_url = base64.b64decode(encoded_proxy_list_url).decode()
